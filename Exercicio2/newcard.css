@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: rgb(255, 208, 0);
+}
+
+main{
+    width: 300px;
+    height: 100;
+}
+
+.cartao{
+    background-color: rgb(36, 10, 109);
+    width: 100%;
+    margin:0 auto;
+    padding: 5% 20%;
+    border-radius: 20px;
+    text-align: center;
+    }
+
+.nome{
+    color: rgb(223, 223, 233);
+}
+
+#qualificacao{
+    color: rgb(93, 93, 197);
+}
+
+#futuro{
+    color: rgb(93, 93, 197);
+}
+
+.texto{
+    margin: 15px 0;
+}
+
+.botao{
+    padding: 5px 15px;
+    background-color: rgb(98, 49, 233);
+    color: rgb(189, 180, 212);
+    border: 3px solid ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao:hover{background-color: rgb(255, 208, 0);
+}
